@@ -1,0 +1,864 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16308 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/dmstl/TopDown Shooting
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57408
+Successfully changed project path to: C:/Users/dmstl/TopDown Shooting
+C:/Users/dmstl/TopDown Shooting
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5184] Host "[IP] 123.215.72.233 [Port] 0 [Flags] 2 [Guid] 405349905 [EditorId] 405349905 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O9IPR81) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5184] Host "[IP] 123.215.72.233 [Port] 0 [Flags] 2 [Guid] 405349905 [EditorId] 405349905 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O9IPR81) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 19.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dmstl/TopDown Shooting/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010400 seconds.
+- Loaded All Assemblies, in  0.427 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.322 seconds
+Domain Reload Profiling: 746ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (132ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (322ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (252ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dmstl\TopDown Shooting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dmstl\TopDown Shooting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.872 seconds
+Refreshing native plugins compatible for Editor in 9.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (605ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (305ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 9.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3998 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (244.6 KB). Loaded Objects now: 4456.
+Memory consumption went from 138.6 MB to 138.4 MB.
+Total: 3.711200 ms (FindLiveObjects: 0.362500 ms CreateObjectMapping: 0.331900 ms MarkObjects: 2.720800 ms  DeleteObjects: 0.294600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73828.947181 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-08.wav
+  artifactKey: Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-08.wav using Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a2a641fa661033a23b798de2c5c0eb') in 0.101226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-01.wav
+  artifactKey: Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-01.wav using Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9800fd4f98cf832f00349671d86688a2') in 0.021230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-06.wav
+  artifactKey: Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-06.wav using Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6ff48362451915111f5239fb53f9f3') in 0.014890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dmstl\TopDown Shooting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dmstl\TopDown Shooting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.864 seconds
+Refreshing native plugins compatible for Editor in 7.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.239 seconds
+Domain Reload Profiling: 2097ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (554ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (270ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 8.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3993 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4472.
+Memory consumption went from 141.6 MB to 141.4 MB.
+Total: 4.756300 ms (FindLiveObjects: 0.337600 ms CreateObjectMapping: 0.356900 ms MarkObjects: 3.798600 ms  DeleteObjects: 0.261400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32.221577 seconds.
+  path: Assets/Spirte/NewBehaviourScript.cs
+  artifactKey: Guid(c57f674d234ea5446a2417874ad17ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spirte/NewBehaviourScript.cs using Guid(c57f674d234ea5446a2417874ad17ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa649e8f534b4c3e85a54644c420f13') in 0.002625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dmstl\TopDown Shooting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dmstl\TopDown Shooting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.856 seconds
+Refreshing native plugins compatible for Editor in 7.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.211 seconds
+Domain Reload Profiling: 2060ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (587ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (289ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 7.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3993 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.1 KB). Loaded Objects now: 4476.
+Memory consumption went from 141.6 MB to 141.4 MB.
+Total: 3.707700 ms (FindLiveObjects: 0.320600 ms CreateObjectMapping: 0.353800 ms MarkObjects: 2.829400 ms  DeleteObjects: 0.203000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.140562 seconds.
+  path: Packages/com.unity.2d.animation/package.json
+  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d02e5f6cbd07e0babba3be7cf16832a') in 0.010686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.764407 seconds.
+  path: Assets/CasualGameBGM05/BGM_02.wav
+  artifactKey: Guid(90eae78e8ce85a849b5b0ca11b2de641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameBGM05/BGM_02.wav using Guid(90eae78e8ce85a849b5b0ca11b2de641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f658fd1ae80f19580033b4a452255fa') in 0.042215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CasualGameBGM05/BGM_04.wav
+  artifactKey: Guid(1532c7e67c2d60c4c8780da14b7e8fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameBGM05/BGM_04.wav using Guid(1532c7e67c2d60c4c8780da14b7e8fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b83fcbde8d3281e040d46c5f82bc982') in 0.015833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.840684 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-15.wav
+  artifactKey: Guid(0c008ee3ee72a4362a35be25fa5de043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-15.wav using Guid(0c008ee3ee72a4362a35be25fa5de043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327ba1d9b5d1e6a32bc9527eef2576d7') in 0.017770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.235558 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-17.wav
+  artifactKey: Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-17.wav using Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da2aed45b30cdf212c5886aabcbcc22') in 0.018041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.583514 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-19.wav
+  artifactKey: Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-19.wav using Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22375cb408ece086a9923c22c0f003db') in 0.013996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-22.wav
+  artifactKey: Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-22.wav using Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6b2cc5c7db3ddba843c81bbff3ef65') in 0.019114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-24.wav
+  artifactKey: Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-24.wav using Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67545818072e6013e85bd5a8383e21b4') in 0.014709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-44.wav
+  artifactKey: Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-44.wav using Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6d85b75bb049a14808982019f744f9') in 0.013174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-39.wav
+  artifactKey: Guid(3becec1909f194046945d85ac1077772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-39.wav using Guid(3becec1909f194046945d85ac1077772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e8bd64204f1b9db46b213e7ebe3def') in 0.014909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-42.wav
+  artifactKey: Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-42.wav using Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c1581ea0fe5181b2da4c0447b9d80') in 0.017899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-35.wav
+  artifactKey: Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-35.wav using Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4313ff89fc2e28af40445277381bc74') in 0.014476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-49.wav
+  artifactKey: Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-49.wav using Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d72c63e7ad1f4ee92885f463c06716') in 0.015000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-33.wav
+  artifactKey: Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-33.wav using Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f10ac6599ab00919245d54cc698d08') in 0.018906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-28.wav
+  artifactKey: Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-28.wav using Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227a210e89057570923b6855677c46ab') in 0.013938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-27.wav
+  artifactKey: Guid(5039414d94a6e4e70a5ab9e8833e992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-27.wav using Guid(5039414d94a6e4e70a5ab9e8833e992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a605b739b4503ae026a89e33e4670d') in 0.013694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 57.873439 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/angel_idle_anim_f1.png
+  artifactKey: Guid(2c009f0947151234e877cd7b1531c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/angel_idle_anim_f1.png using Guid(2c009f0947151234e877cd7b1531c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9605a9a2f26b5057653ce5539e968b') in 0.041809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/angel_run_anim_f0.png
+  artifactKey: Guid(b07ece5b6a1941f4596aea584fcca496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/angel_run_anim_f0.png using Guid(b07ece5b6a1941f4596aea584fcca496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d5dd91eeb49c14279c39831724adb3') in 0.015659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_demon_run_anim_f3.png
+  artifactKey: Guid(cd3bfd7c573c82744bafbdbd4efc9c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_demon_run_anim_f3.png using Guid(cd3bfd7c573c82744bafbdbd4efc9c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63577f90834aff38e3fd99dd3cc67904') in 0.023620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/bomb_f1.png
+  artifactKey: Guid(4afcf07594e8c2a4fa920af02c576a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/bomb_f1.png using Guid(4afcf07594e8c2a4fa920af02c576a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feb896c2125d7579c4ad10914722a14') in 0.018042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_zombie_run_anim_f0.png
+  artifactKey: Guid(75afa4aa53a82754993037c9eb4b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_zombie_run_anim_f0.png using Guid(75afa4aa53a82754993037c9eb4b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6e4fd2559756b2ecfc2a47787c3c49') in 0.017390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_demon_run_anim_f2.png
+  artifactKey: Guid(9eef2d64c91f15248b4d5a87fc64bf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_demon_run_anim_f2.png using Guid(9eef2d64c91f15248b4d5a87fc64bf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb7b6f2e062091b34282bb7e5be5b18') in 0.016579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/angel_run_anim_f1.png
+  artifactKey: Guid(9dff7ff32bc065d4999061b426297d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/angel_run_anim_f1.png using Guid(9dff7ff32bc065d4999061b426297d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebd744d5724daf456e05e1c6c0b8482') in 0.021798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_demon_idle_anim_f3.png
+  artifactKey: Guid(68ce305b0adb33b49a52069cec3f7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_demon_idle_anim_f3.png using Guid(68ce305b0adb33b49a52069cec3f7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70460520b64ed45e0916d6e1857a44c') in 0.017704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_zombie_idle_anim_f3.png
+  artifactKey: Guid(6e9865740eebfd6468362bb07fc6d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/big_zombie_idle_anim_f3.png using Guid(6e9865740eebfd6468362bb07fc6d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c9cd37722d5e7f37c2c7a0b05ba941') in 0.018621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.630537 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chest_full_open_anim_f0.png
+  artifactKey: Guid(4c9376d5c13d9aa44b3ac96a2908d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chest_full_open_anim_f0.png using Guid(4c9376d5c13d9aa44b3ac96a2908d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3c0831c9314a31682bfa73ea1df0ec') in 0.010014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.329833 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chest_mimic_open_anim_f0.png
+  artifactKey: Guid(3ffc4668f9841c843b3062f0fe315180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chest_mimic_open_anim_f0.png using Guid(3ffc4668f9841c843b3062f0fe315180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf0c987b377d4d4662327d4717dc446') in 0.017746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.818726 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/doc_run_anim_f0.png
+  artifactKey: Guid(8522ff26fdbf7e4439bef164505ee529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/doc_run_anim_f0.png using Guid(8522ff26fdbf7e4439bef164505ee529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21126d383027f656ee8919df63f2399') in 0.018068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_f_run_anim_f0.png
+  artifactKey: Guid(50f1ded0fa567214493210e9f197dd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_f_run_anim_f0.png using Guid(50f1ded0fa567214493210e9f197dd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e06e0c8268db97b9e1ed60954f95bd') in 0.023421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_f_run_anim_f3.png
+  artifactKey: Guid(59dbd1bae948dd74e95779276927447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_f_run_anim_f3.png using Guid(59dbd1bae948dd74e95779276927447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6503fbb1fd8cf0b1fa3dabec237436') in 0.022896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/doors_frame_right.png
+  artifactKey: Guid(125790759a17fa54d980d4f002efd19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/doors_frame_right.png using Guid(125790759a17fa54d980d4f002efd19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f309ddf25d3e197b1669b2737efd391d') in 0.020957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_f_hit_anim_f0.png
+  artifactKey: Guid(9eb9fbe683b58f74eafafc407d4d91bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_f_hit_anim_f0.png using Guid(9eb9fbe683b58f74eafafc407d4d91bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed69a641b384d49e39d75c71f02d9ab') in 0.017386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_f_idle_anim_f3.png
+  artifactKey: Guid(ce6b031cd6d177345ac78f5995d4db3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_f_idle_anim_f3.png using Guid(ce6b031cd6d177345ac78f5995d4db3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86431363fff8802c7461a7daa6a1e12c') in 0.021211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.046201 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/elf_f_idle_anim_f0.png
+  artifactKey: Guid(2f4a5899f3b584c46bed5b522e1dd8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/elf_f_idle_anim_f0.png using Guid(2f4a5899f3b584c46bed5b522e1dd8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68229a06d7f18c0363e8d1ce5c364c30') in 0.016302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/flask_red.png
+  artifactKey: Guid(baddd0a9391919544b85788e99d1c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/flask_red.png using Guid(baddd0a9391919544b85788e99d1c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de761137f81024b67ddb6b1d468a74a') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/elf_m_run_anim_f1.png
+  artifactKey: Guid(74166ba62da06764dbb46d4934fa553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/elf_m_run_anim_f1.png using Guid(74166ba62da06764dbb46d4934fa553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f13bd777263639351a03c6306776eab') in 0.017529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/elf_f_run_anim_f0.png
+  artifactKey: Guid(ab3b052ef3a0990409360f28c7bd585e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/elf_f_run_anim_f0.png using Guid(ab3b052ef3a0990409360f28c7bd585e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31751a3ba0f94f8fe9be56f0d741de0') in 0.016199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/flask_big_green.png
+  artifactKey: Guid(0fbbd3668a07bcd41aa26c9b26372bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/flask_big_green.png using Guid(0fbbd3668a07bcd41aa26c9b26372bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512f450cf294d35771606fde268bfc79') in 0.016512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_2.png
+  artifactKey: Guid(fab8842909f26f945bf17586ac405aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_2.png using Guid(fab8842909f26f945bf17586ac405aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7173bfa2306441568772dbef1f82ab') in 0.015689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/elf_f_run_anim_f1.png
+  artifactKey: Guid(c4eaa0549f851724f8357df54f324d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/elf_f_run_anim_f1.png using Guid(c4eaa0549f851724f8357df54f324d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bb3f969dfb771790f53afd9b80a524') in 0.015884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/flask_blue.png
+  artifactKey: Guid(0b420a98fec21da47b4388f906be3c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/flask_blue.png using Guid(0b420a98fec21da47b4388f906be3c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9988adaf66f3688231d4b8eb93141e8f') in 0.015088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/flask_big_red.png
+  artifactKey: Guid(1e0424c5424c1c64ebec05ca0e5ebea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/flask_big_red.png using Guid(1e0424c5424c1c64ebec05ca0e5ebea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a06cfbfe0410e830d0d09cbf9513e4b') in 0.016463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.256142 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_4.png
+  artifactKey: Guid(16df7e2bcf021a445a5cfd9d18edb282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_4.png using Guid(16df7e2bcf021a445a5cfd9d18edb282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9917174136ac8dded83aebe197d57f6') in 0.014920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048121 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_7.png
+  artifactKey: Guid(75552bdaa1d464046938f7174469ee3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_7.png using Guid(75552bdaa1d464046938f7174469ee3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033f43380c35385d4c42668f06f37d47') in 0.015434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_spikes_anim_f1.png
+  artifactKey: Guid(30ad025c0c103a5459613c5fd8abc4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_spikes_anim_f1.png using Guid(30ad025c0c103a5459613c5fd8abc4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42413ba09e5a10275767a50b064ace5e') in 0.016097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014349 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_spikes_anim_f3.png
+  artifactKey: Guid(ed87b95354ba37744a1dc4c1b4d7bf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/floor_spikes_anim_f3.png using Guid(ed87b95354ba37744a1dc4c1b4d7bf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44612a281ad8162a8ee57e50f87766d1') in 0.014915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.235375 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/goblin_idle_anim_f1.png
+  artifactKey: Guid(e21a0e136500c7c429110760cd5a3ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/goblin_idle_anim_f1.png using Guid(e21a0e136500c7c429110760cd5a3ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd98784a5038ebab6711d73d2ad9787') in 0.032078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/goblin_run_anim_f1.png
+  artifactKey: Guid(19e09ac62c677974c956b6122ecab42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/goblin_run_anim_f1.png using Guid(19e09ac62c677974c956b6122ecab42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f3365992166b774d641147778f9b08') in 0.020215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/goblin_idle_anim_f3.png
+  artifactKey: Guid(e66b6f54cfec12b44bffc7d956adb09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/goblin_idle_anim_f3.png using Guid(e66b6f54cfec12b44bffc7d956adb09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1776dc1687d78f20408b12681325f0b2') in 0.010722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.283233 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/ice_zombie_anim_f1.png
+  artifactKey: Guid(2e2836e520bf69845b4c5e1369a5e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/ice_zombie_anim_f1.png using Guid(2e2836e520bf69845b4c5e1369a5e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ddaf6d35c4c8f477a84247f3665c55') in 0.015972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028560 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/imp_idle_anim_f0.png
+  artifactKey: Guid(297fa33998bc26a499a7c9f034225a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/imp_idle_anim_f0.png using Guid(297fa33998bc26a499a7c9f034225a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbcff209b1a97489c7fa5eb63a8afc3') in 0.016164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.475774 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/imp_idle_anim_f3.png
+  artifactKey: Guid(51b735e331f7c134c9806021da6fdb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/imp_idle_anim_f3.png using Guid(51b735e331f7c134c9806021da6fdb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e823aa8b17e8c2d6486aa51aab1f017') in 0.008923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.495395 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/imp_run_anim_f2.png
+  artifactKey: Guid(0545e8c4ce66d9940932ef3f3cb55c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/imp_run_anim_f2.png using Guid(0545e8c4ce66d9940932ef3f3cb55c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc9991d87cc52526cbcb410c9303d5e') in 0.029863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_f_idle_anim_f1.png
+  artifactKey: Guid(c84ee6d5a787ed249984f3f255db0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_f_idle_anim_f1.png using Guid(c84ee6d5a787ed249984f3f255db0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cad4064405527e5035227cf6981b5b') in 0.021375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.469916 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_f_idle_anim_f3.png
+  artifactKey: Guid(68935f5c18cb7f648a9c25ae88dbde07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_f_idle_anim_f3.png using Guid(68935f5c18cb7f648a9c25ae88dbde07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bfe6a7fc9666f43b51a446ecb39949') in 0.038837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_f_run_anim_f2.png
+  artifactKey: Guid(9e709891d652de24292f2549223d2931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_f_run_anim_f2.png using Guid(9e709891d652de24292f2549223d2931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391baeb046d54608341af480a38994d5') in 0.020499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_m_idle_anim_f1.png
+  artifactKey: Guid(03716f93baf5d434fa7dfc1c84cf0046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_m_idle_anim_f1.png using Guid(03716f93baf5d434fa7dfc1c84cf0046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee61749ceef58600214db91449909898') in 0.024156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_m_run_anim_f0.png
+  artifactKey: Guid(f1617a18e4351c44aa7c134c896cc4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/knight_m_run_anim_f0.png using Guid(f1617a18e4351c44aa7c134c896cc4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f45a77d1307576eb13cffb18691926') in 0.020883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.972094 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chort_run_anim_f2.png
+  artifactKey: Guid(a3df21588cdeeee4193ab1d4007486bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chort_run_anim_f2.png using Guid(a3df21588cdeeee4193ab1d4007486bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aece3139f43fc18ffe45e015977f489f') in 0.018418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/coin_anim_f0.png
+  artifactKey: Guid(d97ff620fad264149a2cdc1130fb778f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/coin_anim_f0.png using Guid(d97ff620fad264149a2cdc1130fb778f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e40e817183069e42b09bfad8b89762') in 0.022806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/crate.png
+  artifactKey: Guid(3e501294de61f244392596cf240bb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/crate.png using Guid(3e501294de61f244392596cf240bb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe0868e52b831c507ded4770c767fbd') in 0.016006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.675217 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chort_idle_anim_f3.png
+  artifactKey: Guid(0ded08fe8de85df4ebdbde05f55cbaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chort_idle_anim_f3.png using Guid(0ded08fe8de85df4ebdbde05f55cbaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e137a5fa6bd9350ab220cc12a18f4af') in 0.019622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.283018 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chort_idle_anim_f1.png
+  artifactKey: Guid(d16e089fa51899c408b9867e1e50ef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/chort_idle_anim_f1.png using Guid(d16e089fa51899c408b9867e1e50ef1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8494f68cf7db5e5c555a06198e32526') in 0.025384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.651410 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_m_idle_anim_f0.png
+  artifactKey: Guid(759d43f23bc3ea1439dcbfd5702ab640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_m_idle_anim_f0.png using Guid(759d43f23bc3ea1439dcbfd5702ab640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2a8d385cf08aa03325be0c96782719') in 0.024110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.026052 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_m_idle_anim_f2.png
+  artifactKey: Guid(6de941b6adcd4394db334d8ba5cdc3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_m_idle_anim_f2.png using Guid(6de941b6adcd4394db334d8ba5cdc3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aacfa9a29451c45cf09fa0704fc1ac8') in 0.022933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.309801 seconds.
+  path: Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_m_run_anim_f2.png
+  artifactKey: Guid(1c803febc02e41e46b28c7d05b7b6e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/Textures/0x72_DungeonTilesetII_v1.6/frames/dwarf_m_run_anim_f2.png using Guid(1c803febc02e41e46b28c7d05b7b6e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6fa3b14244b1b53425067a6fd90e1d') in 0.037713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
